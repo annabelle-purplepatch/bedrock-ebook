@@ -1,0 +1,305 @@
+/*
+Theme Name: Bedrock
+Author:  Purplepatch Services LLC (ABC)
+Author URI: http://www.purplepatchservices.com
+Description: Bedrock is a Wordpress Theme for Bedrock Analytics Company
+Version: 1.0
+*/
+
+/* Change video opacity */
+.video-container .filter {background: rgba(0, 0, 0, 0.7) !important;}
+
+.navbar-nav .current-menu-item a, .navbar-nav .current_page_item a {color: #fff !important;}
+
+.navbar-fixed-top { background-color: rgba(0,0,0,0.6); }
+
+button:focus, button:active, a:active, a:focus,input, input:active, input:focus {     outline: 0 !important;     outline-style:none !important;     outline-width:0 !important; }  
+button:focus, button:active, a:active, a:focus,button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner 
+{     border: none !important; } 
+
+.product-services a:hover {text-decoration: none !important;}
+
+.wpcf7-form input, .wpcf7-form select, .wpcf7-form textarea {font-family: 'Poppins', sans-serif;}
+
+.contactMainform input[type="tel"], .contactMainform input[type="text"], .contactMainform input[type="email"], .contactMainform select {border:1px solid #B9B9B8; height:50px; margin-bottom:13px; width:100%}
+
+.screen-reader-response {display:none;}
+
+.wpcf7-not-valid {border: 1px solid #ff0000 !important;}
+
+.wpcf7-not-valid-tip{
+font-size: 12px;
+color: #ff0000;
+float: left;
+margin-bottom: 20px;
+}
+
+.customer-section a {color: #3C3C3B !important; text-decoration: initial !important; }
+
+.custom-comments-area {
+margin-top: 50px;
+background: #f1f1f1;
+padding: 50px 500px 50px 250px;
+}
+
+.entry-content, .img-responsive {margin: 15px 0px;}
+
+.custom-comments-area textarea {width: 100%;}
+
+.background-image-holder {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.headline {
+margin-top: 80px;
+}
+
+@media only screen and (max-width:994px){
+a.navbar-brand {
+margin-top: 5px !important;
+}
+}
+
+@media (max-width: 994px){
+.arrow-scroll {
+display: block !important;
+}
+nav.shrink .navbar-brand img {
+margin-top: 0 !important;
+}
+}
+
+@media only screen and (max-width:960px){
+.custom-comments-area {
+padding: 50px;
+}
+}
+
+@media only screen and (max-device-width: 1024px){
+.custom-comments-area {
+padding: 50px 250px;
+}
+}
+
+/* 10.04.2016 AC (S) */
+section.full {
+	padding: 0;
+	margin: 0 !important;
+}
+
+.full > .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.hero-slide * {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.slides {
+    list-style: none;
+    padding-left: 0px !important;
+    margin: 0;
+}
+
+.hero-slider {
+    background: #2b2b2b;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+}
+.hero-slider .slides li {
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    height: 780px;
+    overflow: hidden;
+    position: relative;
+}
+.hero-slider .slides li:before {
+    background-color: #333;
+    content: '';
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.hero-slider .container {
+    -ms-transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 2;
+}
+.hero-slider h1 {
+    margin-bottom: 42px;
+}
+.hero-slider .btn-hollow {
+    border-color: #fff;
+    color: #fff;
+    margin-left: 16px;
+}
+.hero-slider .btn-hollow:hover {
+    background: #fff;
+    color: #0072bc !important;
+}
+@media all and (max-width: 767px) {
+    .hero-slider .btn-hollow {
+        display: none;
+    }
+}
+@media all and (max-width: 767px) {
+    .hero-slider h1 {
+        margin-bottom: 18px;
+    }
+}
+@media all and (max-width: 767px) {
+
+    .hero-slider .slides li {
+        height: auto !important;
+        min-height: 780px;
+        padding: 0 0 80px 0;
+    }
+    .hero-slider .container {
+        -ms-transform: translateY(0%);
+        position: relative;
+        top: 0;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        z-index: 2;
+    }
+}
+.video-header img {
+    display: inline-block;
+    margin-bottom: 12px;
+    max-width: 300px;
+}
+.video-header:before {
+    background: #000 !important;
+    opacity: 0.5 !important;
+}
+.video-header .uppercase {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+@media all and (max-width: 768px) {
+    .video-header img {
+        max-width: 150px;
+    }
+}
+.background-image-holder {
+    margin-top: 0px;
+    height: 100%;
+    background-size: cover !important;
+    position: absolute;
+    width: 100%;
+    background-position: 50% 50% !important;
+}
+/*
+    top: -10%;
+    width: 100%;
+
+*/
+.background-image-holder img {
+    display: none;
+}
+.video-wrapper {
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+}
+.video-wrapper video {
+    width: 100%;
+}
+@media all and (max-width: 1390px) {
+    .video-wrapper video {
+        width: 110%;
+    }
+}
+@media all and (max-width: 1260px) {
+    .video-wrapper video {
+        width: 120%;
+    }
+}
+@media all and (max-width: 1160px) {
+    .video-wrapper video {
+        width: 130%;
+    }
+}
+@media all and (max-width: 1024px) {
+    .video-wrapper {
+        display: none;
+    }
+}
+
+/* 10.04.2016 AC (E) */
+
+@media ( max-width:1199px ){
+p.mainDescription.custom {min-height:135px}
+}
+
+@media ( max-width:664px ){ 
+p.mainDescription.custom {min-height:140px}
+}
+
+@media ( max-width: 430px ){
+p.mainDescription.custom {min-height:170px}
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {margin-top:-100px}
+
+.aboutbg-inner img, .customersbg-inner img, .contactbg-inner img, .blogbg-inner img {display:none !important;}
+
+.checkOpt input[type=checkbox] {
+margin: 0;
+width: 30px;
+float: left;
+}
+
+.checkOpt .wpcf7-list-item-label{
+width: auto;
+overflow: hidden;
+text-align: left !important;
+float: none;
+padding: 3px 0 0 10px;
+font-size: 15px;
+position: relative;
+top: 16px;
+}
+
+.ebook-btn {
+width: 200px !important;
+margin-top: 50px !important;
+}
+
+@media ( min-width: 320px ){
+.captcha-class {padding: 40% 3% 0;}
+}
+@media ( min-width: 360px ){
+.captcha-class {padding: 40% 8% 0;}
+}
+@media ( min-width: 375px ){
+.captcha-class {padding: 30% 10% 0;}
+}
+@media ( min-width: 414px ){
+.captcha-class {padding: 30% 14% 0;}
+}
+@media ( min-width: 768px ){
+.captcha-class {padding: 15% 28% 0;}
+}
+@media ( min-width: 1024px ){
+.captcha-class {padding: 10% 20% 0;}
+}
+@media ( min-width: 1025px ){
+.captcha-class {padding: 10% 27% 0;}
+}
