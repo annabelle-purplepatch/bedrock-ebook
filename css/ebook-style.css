@@ -1,0 +1,90 @@
+
+/* Blog */
+.ebook-inner {background:url(../images/ebook-top-banner.jpg) no-repeat center; background-size:cover; padding-bottom:40px; padding-top:20px}
+
+.ebook-inner img {width:auto; height:auto; float:right; padding-top:80px}
+.ebook-inner .DescriptionSection.custom.innerTopbanner {margin-top:37%}
+.ebook-inner .dashImgholder-inner
+
+.blogSection {padding:60px 0}
+.blogSection h2 {font-family: 'Poppins', sans-serif; font-size:16px; font-weight:700; color:#3C3C3B; padding-top:10px}
+.blogSection p {color:#6F6F6E; font-family: 'Roboto', sans-serif; font-size:16px; color:#6F6F6E; padding-top:10px}
+.blogSection .titleSec {min-height:42px}
+
+.ebookSection {padding:40px 0; text-align:center}
+.mainTitle.customEdit {font-size:22px; line-height:30px; font-weight:400; color:#3C3C3B; text-align:center; padding-bottom:10px}
+.ebookLabel {text-align:center; color:#6F6F6E; padding: 0 20px}
+.bedrock-Ebook img {width:auto; height:auto; padding:12% 0; text-align:center}
+.ebook-form-section {padding:14% 0}
+.ebook-form-section h3 {font-size:18px; font-weight:400; color:#6f6f6e; text-align:center; line-height:28px}
+.ebook-form-section input {border:1px solid #B9B9B8!important; height:50px; margin-bottom:13px; width:100%}
+.row.ebookForm {padding:20px 0}
+.checkboxOPT {width:100%; float:left; padding:0 20px}
+.checkboxOPT .leftOpt {width:30px; float:left}
+.checkboxOPT .leftOpt input[type="checkbox"] {margin:-4px 0 0 -4px; outline:0}
+.checkboxOPT .rightOpt {width:auto; overflow:hidden; text-align:left; float:none; padding:3px 0 0 10px}
+.ebook-btn, .ebook-btn:active, .ebook-btn:visited, .ebook-btn:focus {background:#1d70aa; border:none; border-radius:25px; color:#fff; padding:14px 15px; font-size:16px; min-width:200px; margin:20px 0; font-family: 'Poppins', sans-serif; font-weight:400}
+.ebook-btn:hover {background:#1e7aad; color:#fff}
+
+
+@media (min-width: 1200px) {
+}
+
+@media ( max-width:1199px ){
+}
+
+
+@media ( max-width:994px ){
+}
+
+@media (min-width: 992px) {
+}
+
+
+@media ( max-width:991px ){
+.ebook-inner .DescriptionSection.custom.innerTopbanner {margin-top:14%}
+.ebook-inner .dashImgholder-inner, .ebook-inner .DescriptionSection.custom.innerTopbanner {width:100%; text-align:center}
+.ebook-inner .dashImgholder-inner img {text-align:center; float:none; margin:0 auto; padding-top:0}
+.bedrock-Ebook {text-align:center}
+.bedrock-Ebook img {padding:4% 0}
+.ebook-form-section {padding:0 0}
+}
+
+@media (max-width: 988px) {
+}
+
+@media (max-width: 768px) {
+
+}
+
+
+@media ( max-width:767px ){
+.bedrock-Ebook img {width:90%; height:auto}
+
+}
+
+
+	
+@media ( max-width:664px ){	
+}
+	
+@media ( max-width:640px ){
+}
+@media ( max-width: 495px ){
+}
+
+@media ( max-width: 447px ){
+}
+
+@media ( max-width: 430px ){
+}
+	
+@media ( max-width: 370px ){
+
+}	
+
+@media ( max-width: 350px ){
+}
+
+
+

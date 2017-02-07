@@ -1,0 +1,17 @@
+.stickyEbook {position:fixed; right:0; width:65px; height:260px; background:#1c5f8d; top:45%; border-top-left-radius: 4px; border-bottom-left-radius:4px; z-index:999999}
+.stickyEbook img {width:auto; height:auto; padding:20px}
+
+.stickyEbook-bottom {background:#1c5f8d; width:100%; padding:20px; text-align:center; color:#fff; font-size:22px}
+.stickyEbook-bottom img {margin:-4px 0 0 10px; width:21px; height:auto}
+.stickyEbook-bottom a, .stickyEbook-bottom a:active, .stickyEbook-bottom a:focus, .stickyEbook-bottom a:visited {color:#fff; text-decoration:none}
+.stickyEbook-bottom a:hover {color:#fff; text-decoration:none}
+
+@media (min-width: 768px) {
+.stickyEbook-bottom {display:none}
+}
+
+@media ( max-width:767px ){
+.stickyEbook-bottom {display:block}
+.stickyEbook  {display:none}
+}
+
