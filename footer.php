@@ -1,5 +1,9 @@
 <!--</div> #main -->
-
+<!-- Sticky e-Book -->
+<div class="stickyEbook-bottom">
+  <a href="<?php echo home_url('/shelf-domination/'); ?>">Download Our E-book <i class="glyphicon"><img src="<?php bloginfo('template_directory'); ?>/images/pdf-sticky-icon.png" alt=""></i></a>
+</div>
+<!-- /Sticky e-Book -->
 
 <!-- Request A Demo -->
 <div id="requestDemo" class="container-full requestDemo">
@@ -43,17 +47,15 @@
 					 <li><a href="#">Login</a></li>
 				</ul> -->
           		<?php wp_nav_menu( array('theme_location' => 'primary', 'container' => false )); ?>
+
 			   <div class="yeartxt">© 2016 Bedrock Analytics Corporation</div>    
 					<ul class="social-network social-circle">
 						<li><a href="https://www.facebook.com/Bedrock.Analytics" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="https://twitter.com/bedrockanalytic" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="https://www.linkedin.com/company/bedrock-analytics" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
 						<!-- <li><a href="#" class="icoPinterest" title="Pinterest"><i class="fa fa-envelope"></i></a></li> -->
-</ul>
+					</ul>
 			</div>
-<ul>
-<li class="menu-item"><a href="/bedrock-analytics-corporation-privacy-policy">Privacy Policy</a></li>					
-</ul>
 			
 		</div>
 	</div>
@@ -81,7 +83,7 @@
 			  	<?php if( get_field('intro_video_url') ): ?>
 			  		<source src="<?php echo get_field('intro_video_url'); ?>" />
 				<?php else: ?>
-			  		<source src="/wp-content/uploads/2016/09/Bedrock-Analytics.mp4" />
+			  		<source src="http://dev-bedrock-analytics.pantheonsite.io/wp-content/uploads/2016/09/Bedrock-Analytics.mp4" />
 			  	<?php endif; ?>
 			</video>
 		</div>
@@ -95,8 +97,6 @@
 <!-- // Bootstrap Core JavaScript -->
 <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/vidscript.js"></script>
-<!-- <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap-switch.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/scripts.js"></script> -->
 
 
 <!-- Modal Video Script -->
