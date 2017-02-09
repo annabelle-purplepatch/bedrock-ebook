@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="description" content="Bedrock Analytics helps CPG manufacturers leverage the power of data-driven analytics to deliver convincing stories to big retailers">
+    <meta name="keywords" content="Data Analytics and Visualization Platform for the CPG Industry, Cloud Software for CPG Analytics, Bedrock Analytics, Bedrock Analytics Corporation, Consumer Product Goods, bedrockanalytics">
     <title><?php bloginfo('name') ?></title>
 
     <!-- Bootstrap Core CSS -->
@@ -49,6 +48,23 @@
 </head>
 
 <body>
+<!--        
+< xx ? php print_r($_REQUEST);      
+echo 'is_ssl: '.is_ssl()."\n";      
+foreach ($_SERVER as $key => $value) {      
+    if (strpos($key, 'HTTP_') === 0) {      
+        $chunks = explode('_', $key);       
+        $header = '';       
+        for ($i = 1; $y = sizeof($chunks) - 1, $i < $y; $i++) {     
+            $header .= ucfirst(strtolower($chunks[$i])).'-';        
+        }       
+        $header .= ucfirst(strtolower($chunks[$i])).': '.$value;        
+        echo $header."\n";      
+    }       
+}       
+ ? xx >     
+-->
+
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -67,5 +83,13 @@
         <!--/.navbar-collapse -->
     </div>
 </nav>
+
+
+<!-- Sticky e-Book -->
+<div class="stickyEbook">
+    
+  <a href="<?php echo home_url('/shelf-domination/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/pdf-sticky-logo.png" alt=""></a>
+</div>
+<!-- /Sticky e-Book -->
 
 <!-- <div id="main"> -->
