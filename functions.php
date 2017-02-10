@@ -273,4 +273,22 @@ function add_google_analytics() {
 }
 
 add_action('wp_enqueue_scripts', 'add_google_analytics');
+
+//code to validate email
+function custom_email_confirmation_validation_filter( $result, $tag ) {
+    $tag = new WPCF7_Shortcode($tag);
+    $name = $tag->name;
+
+      if ('your-email' == $tag->name) {
+          $value = $_POST[$name];
+          if (strpos($value, 'gmail') !== false) {
+            $result->invalidate( $tag, "Only Company Address are allowed." );
+          }
+          if (strpos($value, 'yahoo') !== false) {
+            $result->invalidate( $tag, "Only Company Address are allowed." );
+          } 
+      }
+      return $result;  
+}
+add_filter( 'wpcf7_validate_email*', 'custom_email_confirmation_validation_filter', 10, 2 );
 ?>
