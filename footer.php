@@ -83,7 +83,7 @@
 			  	<?php if( get_field('intro_video_url') ): ?>
 			  		<source src="<?php echo get_field('intro_video_url'); ?>" />
 				<?php else: ?>
-			  		<source src="http://dev-bedrock-analytics.pantheonsite.io/wp-content/uploads/2016/09/Bedrock-Analytics.mp4" />
+			  		<source src="/wp-content/uploads/2016/09/Bedrock-Analytics.mp4" />
 			  	<?php endif; ?>
 			</video>
 		</div>
