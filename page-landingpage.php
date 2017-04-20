@@ -17,7 +17,7 @@ get_header('nomenu'); ?>
 				</div>
 				<div class="col-md-5 bedrock-form">
 					<h2>Experience Bedrock. <br />Schedule a demo now.</h2>
-					<?php echo do_shortcode('[contact-form-7 id="256" title="Lead Generation Campaigns Request Demo"]'); ?>
+					<?php echo do_shortcode('[contact-form-7 id="305" title="Lead Generation Campaigns Request Demo"]'); ?>
 				</div>
 			</div>
 		</div>
