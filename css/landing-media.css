@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px) {
+    .bedrock-tb-format > div {
+        display: block;
+        padding: 32px 22px
+    }
+    .section-three > div {
+        display: block
+    }
+    .bedrock-cnt h1 {
+        padding-top: 48px;
+        font-size: 25px
+    }
+    .bedrock-cnt h2 {
+        font-size: 17px;
+        line-height: 23px
+    }
+
+    .thank-you h1 {
+        padding-top: 48px;
+        font-size: 25px
+    }
+    .thank-you h2 {
+        font-size: 17px;
+        line-height: 23px
+    }
+    .bedrock-form h2 {
+        color: #fff;
+        font-size: 17px;
+        line-height: 26px
+    }
+    .bedrock-banner:before {
+        display: none
+    }
+    .section-two h2 {
+        font-size: 16px;
+        line-height: 26px
+    }
+    .section-three h3 {
+        font-size: 16px
+    }
+    .section-three p {
+        font-size: 14px
+    }
+    .sec-img {
+        padding-bottom: 24px
+    }
+    .section-four h3 {
+        font-size: 16px;
+        line-height: 24px
+    }
+    .section-four a {
+        font-size: 15px
+    }
+    .sec-three .col-md-11 {
+        padding: 0
+    }
+    h1 br,
+    h2 br {
+        display: none
+    }
+    .section-four {
+        padding: 35px 0
+    }
+    .sec-three {
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+    .section-two {
+        padding: 22px 0
+    }
+    form input[type="submit"] {
+        margin-top: 0
+    }
+}
+@media screen and (min-width: 768px)  and (max-width: 1024px){
+	.bedrock-tb-format > div {
+	padding: 100px 10px;
+	}
+}
